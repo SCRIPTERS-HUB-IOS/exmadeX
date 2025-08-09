@@ -1,0 +1,38 @@
+.social-btns {
+  display: flex;
+  gap: 12px;
+  margin-left: 12px;
+  align-items: center;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 8px var(--red-glow);
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-btn:hover,
+.social-btn:focus {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 18px var(--red-glow);
+  outline: none;
+}
+
+.footer-space {
+  height: 160px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255,0,51,0.08) 0%, rgba(40,0,0,0.25) 100%);
+  box-shadow:
+    0 0 20px rgba(255, 0, 51, 0.3),
+    inset 0 0 40px rgba(168, 0, 0, 0.5);
+}
